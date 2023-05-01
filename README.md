@@ -4,7 +4,7 @@ This action print "Hello"+ the name of person to greet to the log
 
 ## Inputs
 
-** Required ** THe name of the person ot greet. Default `"World"`
+**Required** THe name of the person ot greet. Default `"World"`
 
 ## Outputs
 
@@ -15,7 +15,7 @@ The time we greeted you.
 ## Example usage
 
 ```yaml
-uses: actions/js-actions-learning@main
+uses: yuuki1967/js-actions-learning@main
 with:
   whoe-to-greet: 'Mona the Octocat'
 ```
