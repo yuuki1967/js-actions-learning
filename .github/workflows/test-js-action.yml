@@ -9,8 +9,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3.5.2
-      - name: tree
-        run: tree
+      - name: Check status 
+        run: |
+          pwd
+          tree
       - name: Hello world action step
         id: hello
         uses: ./action.yml
