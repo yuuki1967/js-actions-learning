@@ -1,0 +1,13 @@
+name: 'JS Actions Sample'
+description: 'Sample JS Actions'
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    requried: true
+    default: '@yuuki1967'
+outputs:
+  time:
+    description: 'The time we greeted you'
+runs:
+  using: 'node16'
+  main: 'index.js'
