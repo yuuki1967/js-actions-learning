@@ -14,8 +14,7 @@ The time we greeted you.
 
 ## Example usage
 
-```
-yaml
+```yaml
 uses: actions/js-actions-learning@main
 with:
   whoe-to-greet: 'Mona the Octocat'
