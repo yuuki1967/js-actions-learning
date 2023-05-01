@@ -1,3 +1,4 @@
+name: Sample Javascript action
 on: 
     workflow_dispatch:
 
