@@ -15,7 +15,7 @@ jobs:
           tree
       - name: Hello world action step
         id: hello
-        uses: yuuki1967/js-actions-learning@v1
+        uses: ./action.yml
         with:
           who-to-greet: 'Mona the Octocat'
       # Use the output from the `hello` step
